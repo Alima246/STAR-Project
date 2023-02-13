@@ -72,10 +72,11 @@ setRecords({email:"",password:""})
             </div>
             { <br /> }
             <br />
-
+<Link to="/homepage">
             <button type="submit" className="btn-primary">
               Sign In
             </button>
+            </Link>
             <br />
             <br />
             <Link to="/register">
